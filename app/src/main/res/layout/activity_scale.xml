@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:paddingTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <EditText
+            android:id="@+id/et_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入二进制数:" />
+        <EditText
+            android:id="@+id/et_eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入八进制数:" />
+        <EditText
+            android:id="@+id/et_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入十进制数:" />
+        <EditText
+            android:id="@+id/et_sixteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入十六进制数:" />
+        <Button
+            android:id="@+id/btn_transition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="转化"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清除"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tx_sorting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

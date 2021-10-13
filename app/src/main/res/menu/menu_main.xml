@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.applicationtest.MainActivity">
+    <item
+        android:id="@+id/action_cal"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="计算器" />
+    <item
+        android:id="@+id/action_uni"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="单位转换" />
+    <item
+        android:id="@+id/action_sca"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="进制转换" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="help" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="exit" />
+</menu>
